@@ -1,0 +1,77 @@
+nav{
+    background-color: $background;
+    font-family: 'Sarala', sans-serif;
+    width: 452px;
+    height: 100vh;
+
+    .navbar2__profileImage{
+        display: block;
+        margin: 0 auto;
+        width: 241px;
+        height: 241px;
+    }
+    .navbar2__profileName{
+        color: #fff;
+        display: block;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .navbar2__profileNick{
+        color: #A4A4A4;
+        display: block;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .navbar2__buttons{
+        display: flex;
+        justify-content: space-around;
+
+        .navbar2__button{
+            background: #282745;
+            border-radius: 10px;
+            padding: 9px;
+
+            .navbar2__button-img{
+                position: relative;
+                top: -5px;
+            }
+
+            .navbar2__button-span{
+                color: #fff;
+                font-size: 35px;
+                position: relative;
+                top: 4px;
+            }
+        }
+
+    }
+    .navbar2__ul{
+        padding: 0;
+        .navbar2__link{
+            display: block;
+            margin: 30px 10px;
+            .navbar2__link-img{
+                margin-left: 40px;
+            }
+            .navbar2__link-li{
+                display: inline;
+                color: #fff;
+                text-decoration: none;
+                font-size: 35px;
+                position: relative;
+                top: 10px;
+                text-align: center;
+                margin-left: 40px;
+                
+            }
+        }
+        .navbar2__link--top{
+            margin-top: 40px;
+        }
+            
+    }
+}
+
+    

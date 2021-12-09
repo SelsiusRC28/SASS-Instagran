@@ -1,0 +1,89 @@
+aside{
+    background-color: $background;
+    font-family: 'Sarala', sans-serif;
+    width: 100%;
+    height: 81px;
+    display: flex;
+    align-items: center;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+
+        .navbar__images-nick{
+            position: relative;
+            top: 5px;
+        }
+
+        .navbar__search{
+            position: relative;
+            right: 10px;
+
+            .navbar__search-img{
+                margin-right: 5px;
+            }
+
+            .navbar__search-input{
+                width: 500px;
+                height: 45px;
+                background-color: $search;
+                backdrop-filter: blur(250px);
+                border-radius: 5px;
+                text-align: center;
+                border: none;
+                outline: none;
+
+                font-size: 20px;
+                line-height: 33px;
+                color: #D7D7D7;
+            }
+        }
+        
+
+        .navbar__options-options{
+            margin: 0 10px 0 0;
+        }
+
+        .navbar__options-options--margin{
+            margin: 0 40px 0 0;
+        }
+
+        .navbar__options-button{
+            width: 180px;
+            height: 42px;
+            background: linear-gradient(261.42deg, #405DE6 10.31%, #833AB4 26.6%, #C13584 51.95%, #E1306C 79.55%, #FD1D1D 97.2%);
+            border-radius: 10px;
+            font-family: Sarala;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 41px;
+            color: #FFFFFF;
+            position: relative;
+            top: 7px;
+            border: none;
+
+            .navbar__options-plus{
+                width: 30px;
+                height: 30px;
+                position: relative;
+                top: -5px;
+            }
+
+            .navbar__options-newPost{
+                display: inline-block;
+                display: inline-block;
+                position: relative;
+                top: -2px;
+            }
+
+        }
+
+        
+    }
+
+    
+}

@@ -1,0 +1,140 @@
+aside {
+  background-color: #0B0E27;
+  font-family: "Sarala", sans-serif;
+  width: 100%;
+  height: 81px;
+  display: flex;
+  align-items: center;
+}
+aside ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+aside ul .navbar__images-nick {
+  position: relative;
+  top: 5px;
+}
+aside ul .navbar__search {
+  position: relative;
+  right: 10px;
+}
+aside ul .navbar__search .navbar__search-img {
+  margin-right: 5px;
+}
+aside ul .navbar__search .navbar__search-input {
+  width: 500px;
+  height: 45px;
+  background-color: #192648;
+  -webkit-backdrop-filter: blur(250px);
+          backdrop-filter: blur(250px);
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 33px;
+  color: #D7D7D7;
+}
+aside ul .navbar__options-options {
+  margin: 0 10px 0 0;
+}
+aside ul .navbar__options-options--margin {
+  margin: 0 40px 0 0;
+}
+aside ul .navbar__options-button {
+  width: 180px;
+  height: 42px;
+  background: linear-gradient(261.42deg, #405DE6 10.31%, #833AB4 26.6%, #C13584 51.95%, #E1306C 79.55%, #FD1D1D 97.2%);
+  border-radius: 10px;
+  font-family: Sarala;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 41px;
+  color: #FFFFFF;
+  position: relative;
+  top: 7px;
+  border: none;
+}
+aside ul .navbar__options-button .navbar__options-plus {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -5px;
+}
+aside ul .navbar__options-button .navbar__options-newPost {
+  display: inline-block;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+
+nav {
+  background-color: #0B0E27;
+  font-family: "Sarala", sans-serif;
+  width: 452px;
+  height: 100vh;
+}
+nav .navbar2__profileImage {
+  display: block;
+  margin: 0 auto;
+  width: 241px;
+  height: 241px;
+}
+nav .navbar2__profileName {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 45px;
+}
+nav .navbar2__profileNick {
+  color: #A4A4A4;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+}
+nav .navbar2__buttons {
+  display: flex;
+  justify-content: space-around;
+}
+nav .navbar2__buttons .navbar2__button {
+  background: #282745;
+  border-radius: 10px;
+  padding: 9px;
+}
+nav .navbar2__buttons .navbar2__button .navbar2__button-img {
+  position: relative;
+  top: -5px;
+}
+nav .navbar2__buttons .navbar2__button .navbar2__button-span {
+  color: #fff;
+  font-size: 35px;
+  position: relative;
+  top: 4px;
+}
+nav .navbar2__ul {
+  padding: 0;
+}
+nav .navbar2__ul .navbar2__link {
+  display: block;
+  margin: 30px 10px;
+}
+nav .navbar2__ul .navbar2__link .navbar2__link-img {
+  margin-left: 40px;
+}
+nav .navbar2__ul .navbar2__link .navbar2__link-li {
+  display: inline;
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin-left: 40px;
+}
+nav .navbar2__ul .navbar2__link--top {
+  margin-top: 40px;
+}/*# sourceMappingURL=app.css.map */
